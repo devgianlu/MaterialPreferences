@@ -46,6 +46,7 @@ public class MaterialPreferenceScreen extends ScrollView {
     }
 
     public void useGridLayout() {
+        this.container = null;
         removeAllViews();
 
         GridLayout container = new GridLayout(getContext());
@@ -59,6 +60,7 @@ public class MaterialPreferenceScreen extends ScrollView {
     }
 
     public void useLinearLayout() {
+        this.container = null;
         removeAllViews();
 
         LinearLayout container = new LinearLayout(getContext());
